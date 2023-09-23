@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
-    <title>Document</title>
+    <title>TECNOFERLLC</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid ">
-          <a class="navbar-brand ms-5 me-5" href="#">TECNOFER</a>
+          <a id="tecnofer" class="navbar-brand ms-5 me-5" href="#">TECNOFER</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,11 +30,11 @@
                   SERVICES
                  </a>
                  <ul class="dropdown-menu mx-auto">
-                   <li><a class="dropdown-item" href="#">Camaras de seguridad</a></li>
-                   <li><a class="dropdown-item" href="#">Control de acceso</a></li>
-                   <li><a class="dropdown-item" href="#">Redes informaticas</a></li>
-                   <li><a class="dropdown-item" href="#">Alarmas contra robo</a></li>
-                   <li><a class="dropdown-item" href="#">Iluminacion e instalaciones electricas</a></li>
+                   <li><a class="dropdown-item" href="#cctv">CCTV</a></li>
+                   <li><a class="dropdown-item" href="#access-control">Access control</a></li>
+                   <!-- <li><a class="dropdown-item" href="#">Computer networks</a></li>
+                   <li><a class="dropdown-item" href="#">Burglar alarm</a></li> -->
+                   <li><a class="dropdown-item" href="#lighting">Lighting</a></li>
                  </ul>
                </li>
              </ul>
@@ -100,27 +100,27 @@
 
       <div id="container-cards" class="container-fluid">
 
-        <div class="card" style="width: 18rem;">
+        <div id="cctv" class="card" style="width: 18rem;">
           <img src="./img/camara-card.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h4>cctv</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Take care of what you love and keep your home or office watched with our indoor and outdoor security cameras.</p>
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
+        <div id="access-control" class="card" style="width: 18rem;">
           <img src="./img/control-acceso-card.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h4>Access Control</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Get control who enters and who leaves your home or office with our electronic door and gate access systems.</p>
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
+        <div id="lighting" class="card" style="width: 18rem;">
           <img src="./img/iluminacion-card-1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h4>Lighting</h4>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">Light up those special places in your home or business. We carry out: indoor, outdoor and decorative lighting works..</p>
           </div>
         </div>
         
@@ -149,7 +149,10 @@
                 <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
               <div id="submitBox" class="mb-3">
-                <input type="submit" >
+                <button type="submit" class=" btn btn-primary">
+                    SEND
+                </button>
+               
               </div>
             </form>
           </div>
@@ -158,7 +161,7 @@
 
       <div class="btn-wsp">
 
-        <a href=" https://wa.me/0016892417137" target="_blank"><img src="./img/whatsapp-icon.svg " alt=""></a>
+        <a href=" https://wa.me/+16892417137" target="_blank"><img src="./img/whatsapp-icon.svg " alt=""></a>
       </div>
 
 

@@ -133,6 +133,7 @@ footer .icons ul{
     display: flex;
     justify-content: space-around;
     color: white;
+    margin-right: 30px;
     
     
 
@@ -228,5 +229,12 @@ footer ul li a img{
     width: 100%;
 }
 
+.btn-wsp{
+    right: 5px;
+}
+
+#tecnofer {
+    margin: 2px  !important;
+}
     
 }
